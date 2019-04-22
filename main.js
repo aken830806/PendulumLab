@@ -22,12 +22,12 @@ window.onload = function() {
         friction: 0.06,
         render: {
             options: {
-                background: './image/test3.png',
+                background: 'https://lab.openedu.tw/static/PendulumLab_js/test3.png',
                 showAngleIndicator: true,//角度指示
                 isStatic: true,
                 wireframes: false,
                 width: window.innerWidth,//59%
-                height: window.innerWidth*.5,//80%
+                height: window.innerWidth,//80% 
                 visible: false
             }
         }
